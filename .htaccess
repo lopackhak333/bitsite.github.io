@@ -8,7 +8,7 @@ RewriteEngine On
 
 # ???????????
 	RewriteRule ^reg/(/?)+$ index.php?go=register [L]
-    #Redirect301/ https://bitmusic.sytes.net/accessdenied.html
+    Redirect301/ https://bitmusic.sytes.net/accessdenied.html
 	
 # Apps
 	RewriteRule ^apps(/?)+$ index.php?go=apps [L]
